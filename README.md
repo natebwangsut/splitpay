@@ -1,4 +1,4 @@
-# Pay Splitter
+# Splitpay
 
 *Simple $ Splitting Site for Sharing*
 
