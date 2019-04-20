@@ -1,0 +1,30 @@
+{
+  "name": "splitpay",
+  "version": "0.0.1",
+  "description": "Simple $ splitting site for sharing",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natebwangsut/splitpay.git"
+  },
+  "keywords": [
+    "payment"
+  ],
+  "author": "Nate B. Wangsutthitham <nate.bwangsut@gmail.com>",
+  "contributors": [
+    "Kolatat Thangkasemvathana <kolatat.t@gmail.com>"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/natebwangsut/splitpay/issues"
+  },
+  "homepage": "https://github.com/natebwangsut/splitpay#readme",
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.4.0"
+  }
+}
