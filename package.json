@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/natebwangsut/splitpay#readme",
   "dependencies": {
+    "bulma": "^0.7.4",
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.0"
   },
