@@ -26,5 +26,13 @@
   "dependencies": {
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

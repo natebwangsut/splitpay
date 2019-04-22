@@ -1,0 +1,26 @@
+{
+  "README.md": [
+    "prettier --write",
+    "git add"
+  ],
+  "index.html": [
+    "prettier --write",
+    "git add"
+  ],
+  "src/**/*.html": [
+    "prettier --write",
+    "git add"
+  ],
+  "src/**/*.css": [
+    "prettier --write",
+    "git add"
+  ],
+  "src/**/*.js": [
+    "prettier --write",
+    "git add"
+  ],
+  "assets/css/**/*.css": [
+    "prettier --write",
+    "git add"
+  ]
+}
