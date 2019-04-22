@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Simple $ splitting site for sharing",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -25,11 +27,24 @@
   "homepage": "https://github.com/natebwangsut/splitpay#readme",
   "dependencies": {
     "bulma": "^0.7.4",
+    "core-js": "^3.0.1",
     "hammerjs": "^2.0.8",
-    "jquery": "^3.4.0"
+    "jquery": "^3.4.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "@vue/cli-plugin-typescript": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "lint-staged": "^8.1.5",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.17.0",
+    "sass-loader": "^7.1.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.4",
+    "vue-template-compiler": "^2.6.10"
   },
   "husky": {
     "hooks": {

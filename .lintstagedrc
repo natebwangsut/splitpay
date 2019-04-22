@@ -3,19 +3,11 @@
     "prettier --write",
     "git add"
   ],
-  "index.html": [
+  "src/**/*.{html,css,ts,js}": [
     "prettier --write",
     "git add"
   ],
-  "src/**/*.html": [
-    "prettier --write",
-    "git add"
-  ],
-  "src/**/*.css": [
-    "prettier --write",
-    "git add"
-  ],
-  "src/**/*.js": [
+  "src/**/*.vue": [
     "prettier --write",
     "git add"
   ],
